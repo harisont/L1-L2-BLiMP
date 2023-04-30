@@ -6,7 +6,8 @@ The [BLiMP Benchmark of Linguistic Minimal Pairs](https://direct.mit.edu/tacl/ar
 - original BLiMP data: `blimp/data/`
 - L1-L2 BLiMP data: `blimp/treebanks/`
 - Python script to build the treebanks with UDPipe 2: `blimp/gen_treebanks.py`
-- description of all paradigms, for reference: ```blimp/BLiMP_Paradigms.pdf```
+- description of all paradigms, for reference: `blimp/BLiMP_Paradigms.pdf`
+- preprocessing scripts for BEA experiments: `morphosyntax.py` and `random_split.py`
 
 ## Original BLiMP data
 
@@ -63,6 +64,50 @@ from `data/determiner_noun_agreement_with_adjective_1.jsonl` is
 
 UD annotation was obtained via the [UDPipe REST API](https://lindat.mff.cuni.cz/services/udpipe/api-reference.php), using the default 2.10 UD model for English.
 
+## Further preprocessing for BEA experiments
+1. treebanks were merged and filtered with `morphosyntax.py`, resulting in a new parallel treebank, stored in `treebanks/bea`, exclusively composed by __lexically identical sentences presenting a morphology or syntax error__. In the process, some sentences that were incorrectly segmented by UDPipe wer found and removed: 
+   - adjunct_island441
+   - adjunct_island821
+   - complex_NP_island561
+   - distractor_agreement_relational_noun553
+   - distractor_agreement_relative_clause837
+   - matrix_question_npi_licensor_present496
+   - matrix_question_npi_licensor_present499
+   - npi_present_1184
+   - npi_present_1308
+   - npi_present_1475
+   - npi_present_1477
+   - npi_present_1614
+   - npi_present_1668
+   - npi_present_1941
+   - npi_present_1979
+   - only_npi_licensor_present73
+   - only_npi_licensor_present133
+   - only_npi_licensor_present203
+   - only_npi_licensor_present238
+   - only_npi_licensor_present517
+   - only_npi_licensor_present733
+   - only_npi_licensor_present825
+   - principle_A_case_1352
+   - principle_A_domain_2805
+   - principle_A_domain_390
+   - principle_A_domain_3182
+   - principle_A_domain_3538
+   - principle_A_domain_3592
+   - principle_A_domain_3601
+   - principle_A_domain_3614
+   - principle_A_domain_3657
+   - principle_A_domain_3794
+   - principle_A_domain_3961
+   - principle_A_domain_3702
+   - principle_A_domain_3757
+   - principle_A_domain_3982
+   - sentential_negation_npi_scope106
+   - sentential_negation_npi_scope869
+   - sentential_subject_island697
+   - transitive918
+   - wh_island800
+2. 
 
 ## Recommended Citation
 If you use BLiMP (original or this L1-L2 UD version) in your work, please cite it as follows:

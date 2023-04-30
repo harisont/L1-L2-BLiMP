@@ -2246,28 +2246,6 @@
 
 
 
-# sentence_good = Frank thinks Anne conceals herself.
-# sentence_bad = Anne thinks Frank conceals herself.
-# two_prefix_prefix_good = Frank thinks Anne conceals
-# two_prefix_prefix_bad = Anne thinks Frank conceals
-# two_prefix_word = herself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_390
-1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	Frank	Frank	PROPN	NNP	Number=Sing	4	nsubj	_	_
-4	conceals	conceal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = John can say Karen sounds like herself.
 # sentence_bad = Karen can say John sounds like herself.
 # two_prefix_prefix_good = John can say Karen sounds like
@@ -4529,29 +4507,6 @@
 4	admires	admire	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Anne imagines Carlos helps himself.
-# sentence_bad = Carlos imagines Anne helps himself.
-# two_prefix_prefix_good = Anne imagines Carlos helps
-# two_prefix_prefix_bad = Carlos imagines Anne helps
-# two_prefix_word = himself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3182
-1	Carlos	Carlos	PROPN	NNP	Number=Sing	0	root	_	_
-2	imagines	imagine	NOUN	NNS	Number=Plur	1	flat	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
-4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
 
 
 
@@ -13335,31 +13290,6 @@
 
 
 
-# sentence_good = Mark imagines Anne didn't criticize herself.
-# sentence_bad = Anne imagines Mark didn't criticize herself.
-# two_prefix_prefix_good = Mark imagines Anne didn't criticize
-# two_prefix_prefix_bad = Anne imagines Mark didn't criticize
-# two_prefix_word = herself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3538
-1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	imagines	imagine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	Mark	Mark	PROPN	NNP	Number=Sing	6	nsubj	_	_
-4-5	didn't	_	_	_	_	_	_	_	_
-4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
-5	n't	not	PART	RB	_	6	advmod	_	_
-6	criticize	criticize	VERB	VB	VerbForm=Inf	2	ccomp	_	_
-7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Jill explains Guy can embarrass himself.
 # sentence_bad = Guy explains Jill can embarrass himself.
 # two_prefix_prefix_good = Jill explains Guy can embarrass
@@ -14689,32 +14619,6 @@
 
 
 
-# sentence_good = Jeffrey can't explain Theresa will describe herself.
-# sentence_bad = Theresa can't explain Jeffrey will describe herself.
-# two_prefix_prefix_good = Jeffrey can't explain Theresa will describe
-# two_prefix_prefix_bad = Theresa can't explain Jeffrey will describe
-# two_prefix_word = herself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3592
-1	Theresa	Theresa	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2-3	can't	_	_	_	_	_	_	_	_
-2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	_
-3	n't	not	PART	RB	_	4	advmod	_	_
-4	explain	explain	VERB	VB	VerbForm=Inf	0	root	_	_
-5	Jeffrey	Jeffrey	PROPN	NNP	Number=Sing	7	nsubj	_	_
-6	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
-7	describe	describe	VERB	VB	VerbForm=Inf	4	ccomp	_	_
-8	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Jill can explain Bruce's brother won't hurt himself.
 # sentence_bad = Bruce's brother can explain Jill won't hurt himself.
 # two_prefix_prefix_good = Jill can explain Bruce's brother won't hurt
@@ -14911,32 +14815,6 @@
 6	visit	visit	VERB	VB	VerbForm=Inf	2	ccomp	_	_
 7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Gregory did imagine Anne couldn't astound herself.
-# sentence_bad = Anne did imagine Gregory couldn't astound herself.
-# two_prefix_prefix_good = Gregory did imagine Anne couldn't astound
-# two_prefix_prefix_bad = Anne did imagine Gregory couldn't astound
-# two_prefix_word = herself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3601
-1	Anne	Anne	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
-3	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	_
-4	Gregory	Gregory	PROPN	NNP	Number=Sing	7	nsubj	_	_
-5-6	couldn't	_	_	_	_	_	_	_	_
-5	could	could	AUX	MD	VerbForm=Fin	7	aux	_	_
-6	n't	not	PART	RB	_	7	advmod	_	_
-7	astound	astound	VERB	VB	VerbForm=Inf	3	ccomp	_	_
-8	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 
 
 
@@ -15227,33 +15105,6 @@
 5	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
 6	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Anne imagines Erin's grandfather might reference himself.
-# sentence_bad = Erin's grandfather imagines Anne might reference himself.
-# two_prefix_prefix_good = Anne imagines Erin's grandfather might reference
-# two_prefix_prefix_bad = Erin's grandfather imagines Anne might reference
-# two_prefix_word = himself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3614
-1-2	Erin's	_	_	_	_	_	_	_	_
-1	Erin	Erin	PROPN	NNP	Number=Sing	3	nmod:poss	_	_
-2	's	's	PART	POS	_	1	case	_	_
-3	grandfather	grandfather	NOUN	NN	Number=Sing	4	nsubj	_	_
-4	imagines	imagine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
-3	reference	reference	VERB	VB	VerbForm=Inf	0	root	_	_
-4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 
 
 
@@ -16297,33 +16148,6 @@
 6	conceals	conceal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
 7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Ann can't imagine Martin would alarm himself.
-# sentence_bad = Martin can't imagine Ann would alarm himself.
-# two_prefix_prefix_good = Ann can't imagine Martin would alarm
-# two_prefix_prefix_bad = Martin can't imagine Ann would alarm
-# two_prefix_word = himself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3657
-1	Martin	Martin	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2-3	can't	_	_	_	_	_	_	_	_
-2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	_
-3	n't	not	PART	RB	_	4	advmod	_	_
-4	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	_
-
-1	Ann	Ann	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
-3	alarm	alarm	VERB	VB	VerbForm=Inf	0	root	_	_
-4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 
 
 
@@ -17411,30 +17235,6 @@
 7	praise	praise	VERB	VB	VerbForm=Inf	3	ccomp	_	_
 8	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	obj	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Wendy imagines Timothy might alarm himself.
-# sentence_bad = Timothy imagines Wendy might alarm himself.
-# two_prefix_prefix_good = Wendy imagines Timothy might alarm
-# two_prefix_prefix_bad = Timothy imagines Wendy might alarm
-# two_prefix_word = himself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3702
-1	Timothy	Timothy	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	imagines	imagine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
-3	alarm	alarm	VERB	VB	VerbForm=Inf	0	root	_	_
-4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 
 
 
@@ -18809,30 +18609,6 @@
 
 
 
-# sentence_good = Anne imagines Gerald talks to himself.
-# sentence_bad = Gerald imagines Anne talks to himself.
-# two_prefix_prefix_good = Anne imagines Gerald talks to
-# two_prefix_prefix_bad = Gerald imagines Anne talks to
-# two_prefix_word = himself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3757
-1	Gerald	Gerald	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	imagines	imagine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	talks	talk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	to	to	ADP	IN	_	4	case	_	_
-4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obl	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Patients' grandson explains Debra wouldn't work with herself.
 # sentence_bad = Debra explains patients' grandson wouldn't work with herself.
 # two_prefix_prefix_good = Patients' grandson explains Debra wouldn't work with
@@ -19704,28 +19480,6 @@
 3	Laura	Laura	PROPN	NNP	Number=Sing	4	nsubj	_	_
 4	discovers	discover	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
 5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Curtis explains Anne leaves herself.
-# sentence_bad = Anne explains Curtis leaves herself.
-# two_prefix_prefix_good = Curtis explains Anne leaves
-# two_prefix_prefix_bad = Anne explains Curtis leaves
-# two_prefix_word = herself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3794
-1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	explains	explain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	Curtis	Curtis	PROPN	NNP	Number=Sing	4	nsubj	_	_
-4	leaves	leaf	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
-5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
 
 
@@ -23832,31 +23586,6 @@
 
 
 
-# sentence_good = Erin imagines Todd couldn't bore himself.
-# sentence_bad = Todd imagines Erin couldn't bore himself.
-# two_prefix_prefix_good = Erin imagines Todd couldn't bore
-# two_prefix_prefix_bad = Todd imagines Erin couldn't bore
-# two_prefix_word = himself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3961
-1	Todd	Todd	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	imagines	imagine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	Erin	Erin	PROPN	NNP	Number=Sing	6	nsubj	_	_
-4-5	couldn't	_	_	_	_	_	_	_	_
-4	could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
-5	n't	not	PART	RB	_	6	advmod	_	_
-6	bore	bore	VERB	VB	VerbForm=Inf	2	ccomp	_	_
-7	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	obj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Jessica's grandson says Allison approaches herself.
 # sentence_bad = Allison says Jessica's grandson approaches herself.
 # two_prefix_prefix_good = Jessica's grandson says Allison approaches
@@ -24349,32 +24078,6 @@
 8	criticize	criticize	VERB	VB	VerbForm=Inf	5	ccomp	_	_
 9	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	obj	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Anne can't imagine Rodney hides himself.
-# sentence_bad = Rodney can't imagine Anne hides himself.
-# two_prefix_prefix_good = Anne can't imagine Rodney hides
-# two_prefix_prefix_bad = Rodney can't imagine Anne hides
-# two_prefix_word = himself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_domain_3
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = principle_A_domain_3982
-1	Rodney	Rodney	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2-3	can't	_	_	_	_	_	_	_	_
-2	ca	can	AUX	MD	VerbForm=Fin	4	aux	_	_
-3	n't	not	PART	RB	_	4	advmod	_	_
-4	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	hides	hide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-3	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	2	obj	_	SpaceAfter=No
-4	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
 
 
 

@@ -4359,34 +4359,6 @@
 
 
 
-# sentence_good = Even Anne certainly asks most companies to buy every hamster.
-# sentence_bad = Even Anne ever asks most companies to buy every hamster.
-# one_prefix_prefix = Even Anne
-# one_prefix_word_good = certainly
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1184
-1	Even	even	ADV	RB	_	0	root	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	certainly	certainly	ADV	RB	_	3	advmod	_	_
-3	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	most	most	ADJ	JJS	Degree=Sup	5	amod	_	_
-5	companies	company	NOUN	NNS	Number=Plur	3	obj	_	_
-6	to	to	PART	TO	_	7	mark	_	_
-7	buy	buy	VERB	VB	VerbForm=Inf	3	xcomp	_	_
-8	every	every	DET	DT	_	9	det	_	_
-9	hamster	hamster	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Even Vanessa clearly buys these trucks.
 # sentence_bad = Even Vanessa ever buys these trucks.
 # one_prefix_prefix = Even Vanessa
@@ -7298,32 +7270,6 @@
 3	often	often	ADV	RB	_	4	advmod	_	_
 4	cried	cry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Even Ann also compels an organization to upset Brenda.
-# sentence_bad = Even Ann ever compels an organization to upset Brenda.
-# one_prefix_prefix = Even Ann
-# one_prefix_word_good = also
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1308
-1	Even	even	ADV	RB	_	2	advmod	_	_
-2	Ann	Ann	PROPN	NNP	Number=Sing	4	nsubj	_	_
-3	also	also	ADV	RB	_	4	advmod	_	_
-4	compels	compel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
-6	organization	organization	NOUN	NN	Number=Sing	4	obj	_	_
-7	to	to	PART	TO	_	8	mark	_	_
-8	upset	upset	VERB	VB	VerbForm=Inf	4	advcl	_	_
-9	Brenda	Brenda	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 
 
 
@@ -11245,33 +11191,6 @@
 
 
 
-# sentence_good = Even Wendy had really needed to confuse a guest.
-# sentence_bad = Even Wendy had ever needed to confuse a guest.
-# one_prefix_prefix = Even Wendy had
-# one_prefix_word_good = really
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1475
-1	Even	even	ADV	RB	_	0	root	_	_
-
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
-3	really	really	ADV	RB	_	4	advmod	_	_
-4	needed	need	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-5	to	to	PART	TO	_	6	mark	_	_
-6	confuse	confuse	VERB	VB	VerbForm=Inf	4	xcomp	_	_
-7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
-8	guest	guest	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Even Stacy had certainly blinked.
 # sentence_bad = Even Stacy had ever blinked.
 # one_prefix_prefix = Even Stacy had
@@ -11291,35 +11210,6 @@
 4	certainly	certainly	ADV	RB	_	5	advmod	_	_
 5	blinked	blink	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Even Theresa had also persuaded this driver to reference that play.
-# sentence_bad = Even Theresa had ever persuaded this driver to reference that play.
-# one_prefix_prefix = Even Theresa had
-# one_prefix_word_good = also
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1477
-1	Even	even	ADV	RB	_	0	root	_	_
-
-1	Theresa	Theresa	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
-3	also	also	ADV	RB	_	4	advmod	_	_
-4	persuaded	persuade	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
-5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
-6	driver	driver	NOUN	NN	Number=Sing	4	obj	_	_
-7	to	to	PART	TO	_	8	mark	_	_
-8	reference	reference	VERB	VB	VerbForm=Inf	4	xcomp	_	_
-9	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
-10	play	play	NOUN	NN	Number=Sing	8	obj	_	SpaceAfter=No
-11	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 
 
 
@@ -14503,32 +14393,6 @@
 
 
 
-# sentence_good = Even Wendy also convinces some associations to profit.
-# sentence_bad = Even Wendy ever convinces some associations to profit.
-# one_prefix_prefix = Even Wendy
-# one_prefix_word_good = also
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1614
-1	Even	even	ADV	RB	_	0	root	_	_
-
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	also	also	ADV	RB	_	3	advmod	_	_
-3	convinces	convince	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	some	some	DET	DT	_	5	det	_	_
-5	associations	association	NOUN	NNS	Number=Plur	3	obj	_	_
-6	to	to	PART	TO	_	7	mark	_	_
-7	profit	profit	VERB	VB	VerbForm=Inf	3	xcomp	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Even all guys often joke around.
 # sentence_bad = Even all guys ever joke around.
 # one_prefix_prefix = Even all guys
@@ -15763,33 +15627,6 @@
 5	some	some	DET	DT	_	6	det	_	_
 6	computer	computer	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Even Wendy might really prevent Robert from describing Diana.
-# sentence_bad = Even Wendy might ever prevent Robert from describing Diana.
-# one_prefix_prefix = Even Wendy might
-# one_prefix_word_good = really
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1668
-1	Even	even	ADV	RB	_	0	root	_	_
-
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2	might	might	AUX	MD	VerbForm=Fin	4	aux	_	_
-3	really	really	ADV	RB	_	4	advmod	_	_
-4	prevent	prevent	VERB	VB	VerbForm=Inf	0	root	_	_
-5	Robert	Robert	PROPN	NNP	Number=Sing	4	obj	_	_
-6	from	from	SCONJ	IN	_	7	mark	_	_
-7	describing	describe	VERB	VBG	VerbForm=Ger	4	advcl	_	_
-8	Diana	Diana	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 
 
 
@@ -22209,31 +22046,6 @@
 
 
 
-# sentence_good = Even Wendy clearly hoped to attack Kenneth.
-# sentence_bad = Even Wendy ever hoped to attack Kenneth.
-# one_prefix_prefix = Even Wendy
-# one_prefix_word_good = clearly
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1941
-1	Even	even	ADV	RB	_	0	root	_	_
-
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	clearly	clearly	ADV	RB	_	3	advmod	_	_
-3	hoped	hope	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-4	to	to	PART	TO	_	5	mark	_	_
-5	attack	attack	VERB	VB	VerbForm=Inf	3	xcomp	_	_
-6	Kenneth	Kenneth	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Even a lot of guys often communicated.
 # sentence_bad = Even a lot of guys ever communicated.
 # one_prefix_prefix = Even a lot of guys
@@ -23108,33 +22920,6 @@
 8	to	to	PART	TO	_	9	mark	_	_
 9	crumple	crumple	VERB	VB	VerbForm=Inf	6	xcomp	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Even Anne often prevents Julie from boasting about essays.
-# sentence_bad = Even Anne ever prevents Julie from boasting about essays.
-# one_prefix_prefix = Even Anne
-# one_prefix_word_good = often
-# one_prefix_word_bad = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = npi_present_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = npi_present_1979
-1	Even	even	ADV	RB	_	0	root	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	often	often	ADV	RB	_	3	advmod	_	_
-3	prevents	prevent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	Julie	Julie	PROPN	NNP	Number=Sing	3	obj	_	_
-5	from	from	SCONJ	IN	_	6	mark	_	_
-6	boasting	boast	VERB	VBG	VerbForm=Ger	3	advcl	_	_
-7	about	about	ADP	IN	_	8	case	_	_
-8	essays	essay	NOUN	NNS	Number=Plur	6	obl	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
 
 
 

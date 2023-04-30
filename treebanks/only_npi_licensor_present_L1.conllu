@@ -1724,32 +1724,6 @@
 
 
 
-# sentence_good = Only Wendy ever neglects to question some patient.
-# sentence_bad = Even Wendy ever neglects to question some patient.
-# two_prefix_prefix_good = Only Wendy
-# two_prefix_prefix_bad = Even Wendy
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = only_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = only_npi_licensor_present73
-1	Only	only	ADV	RB	_	0	root	_	_
-
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	ever	ever	ADV	RB	_	3	advmod	_	_
-3	neglects	neglect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	to	to	PART	TO	_	5	mark	_	_
-5	question	question	VERB	VB	VerbForm=Inf	3	xcomp	_	_
-6	some	some	DET	DT	_	7	det	_	_
-7	patient	patient	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Only Teresa has ever admired Suzanne.
 # sentence_bad = Even Teresa has ever admired Suzanne.
 # two_prefix_prefix_good = Only Teresa has
@@ -3140,29 +3114,6 @@
 6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
 7	museum	museum	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Only Anne will ever murmur.
-# sentence_bad = Even Anne will ever murmur.
-# two_prefix_prefix_good = Only Anne will
-# two_prefix_prefix_bad = Even Anne will
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = only_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = only_npi_licensor_present133
-1	Only	only	ADV	RB	_	0	root	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
-3	ever	ever	ADV	RB	_	4	advmod	_	_
-4	murmur	murmur	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 
 
 
@@ -4788,28 +4739,6 @@
 
 
 
-# sentence_good = Only Wendy ever went fishing.
-# sentence_bad = Even Wendy ever went fishing.
-# two_prefix_prefix_good = Only Wendy
-# two_prefix_prefix_bad = Even Wendy
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = only_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = only_npi_licensor_present203
-1	Only	only	ADV	RB	_	2	advmod	_	_
-2	Wendy	Wendy	PROPN	NNP	Number=Sing	4	nsubj	_	_
-3	ever	ever	ADV	RB	_	4	advmod	_	_
-4	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-5	fishing	fish	VERB	VBG	VerbForm=Ger	4	xcomp	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Only women ever disagree with that person.
 # sentence_bad = Even women ever disagree with that person.
 # two_prefix_prefix_good = Only women
@@ -5625,37 +5554,6 @@
 4	ever	ever	ADV	RB	_	5	advmod	_	_
 5	chip	chip	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Only Ann would ever push some mother of Sarah to talk about these documentaries.
-# sentence_bad = Even Ann would ever push some mother of Sarah to talk about these documentaries.
-# two_prefix_prefix_good = Only Ann would
-# two_prefix_prefix_bad = Even Ann would
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = only_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = only_npi_licensor_present238
-1	Only	only	ADV	RB	_	2	advmod	_	_
-2	Ann	Ann	PROPN	NNP	Number=Sing	5	nsubj	_	_
-3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
-4	ever	ever	ADV	RB	_	5	advmod	_	_
-5	push	push	VERB	VB	VerbForm=Inf	0	root	_	_
-6	some	some	DET	DT	_	7	det	_	_
-7	mother	mother	NOUN	NN	Number=Sing	5	obj	_	_
-8	of	of	ADP	IN	_	9	case	_	_
-9	Sarah	Sarah	PROPN	NNP	Number=Sing	7	nmod	_	_
-10	to	to	PART	TO	_	11	mark	_	_
-11	talk	talk	VERB	VB	VerbForm=Inf	5	xcomp	_	_
-12	about	about	ADP	IN	_	14	case	_	_
-13	these	this	DET	DT	Number=Plur|PronType=Dem	14	det	_	_
-14	documentaries	documentary	NOUN	NNS	Number=Plur	11	obl	_	SpaceAfter=No
-15	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
 
 
 
@@ -12175,29 +12073,6 @@
 
 
 
-# sentence_good = Only Wendy does ever sing.
-# sentence_bad = Even Wendy does ever sing.
-# two_prefix_prefix_good = Only Wendy does
-# two_prefix_prefix_bad = Even Wendy does
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = only_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = only_npi_licensor_present517
-1	Only	only	ADV	RB	_	0	root	_	_
-
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	ever	ever	ADV	RB	_	4	advmod	_	_
-4	sing	sing	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
-5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Only Cheryl had ever exercised.
 # sentence_bad = Even Cheryl had ever exercised.
 # two_prefix_prefix_good = Only Cheryl had
@@ -17267,31 +17142,6 @@
 
 
 
-# sentence_good = Only Anne ever regrets a woman protested.
-# sentence_bad = Even Anne ever regrets a woman protested.
-# two_prefix_prefix_good = Only Anne
-# two_prefix_prefix_bad = Even Anne
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = only_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = only_npi_licensor_present733
-1	Only	only	ADV	RB	_	0	root	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	3	nsubj	_	_
-2	ever	ever	ADV	RB	_	3	advmod	_	_
-3	regrets	regret	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
-5	woman	woman	NOUN	NN	Number=Sing	6	nsubj	_	_
-6	protested	protest	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	ccomp	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Only Bill would ever resemble every print.
 # sentence_bad = Even Bill would ever resemble every print.
 # two_prefix_prefix_good = Only Bill would
@@ -19423,29 +19273,6 @@
 10	some	some	DET	DT	_	11	det	_	_
 11	doctor	doctor	NOUN	NN	Number=Sing	9	obj	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Only Wendy did ever bother Samantha.
-# sentence_bad = Even Wendy did ever bother Samantha.
-# two_prefix_prefix_good = Only Wendy did
-# two_prefix_prefix_bad = Even Wendy did
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = only_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = only_npi_licensor_present825
-1	Only	only	ADV	RB	_	2	advmod	_	_
-2	Wendy	Wendy	PROPN	NNP	Number=Sing	5	nsubj	_	_
-3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
-4	ever	ever	ADV	RB	_	5	advmod	_	_
-5	bother	bother	VERB	VB	VerbForm=Inf	0	root	_	_
-6	Samantha	Samantha	PROPN	NNP	Number=Sing	5	obj	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
 
 
 

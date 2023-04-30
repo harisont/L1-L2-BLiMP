@@ -20711,31 +20711,6 @@
 
 
 
-# sentence_good = Who could Anne realize she will approach?
-# sentence_bad = Who could Anne realize who will approach?
-# one_prefix_prefix = Who could Anne realize
-# one_prefix_word_good = she
-# one_prefix_word_bad = who
-# field = syntax
-# linguistics_term = island_effects
-# UID = wh_island
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = wh_island800
-1	Who	who	PRON	WP	PronType=Int	0	root	_	_
-2	could	could	AUX	MD	VerbForm=Fin	1	aux	_	_
-
-1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
-2	realize	realize	VERB	VBP	VerbForm=Inf	0	root	_	_
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
-4	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
-5	approach	approach	VERB	VB	VerbForm=Inf	2	ccomp	_	SpaceAfter=No
-6	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = What isn't Tracy investigating she will walk through?
 # sentence_bad = What isn't Tracy investigating who will walk through?
 # one_prefix_prefix = What isn't Tracy investigating

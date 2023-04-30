@@ -11372,31 +11372,6 @@
 
 
 
-# sentence_good = Can Wendy ever regret Lisa ascends some slope?
-# sentence_bad = Wendy can ever regret Lisa ascends some slope.
-# two_prefix_prefix_good = Can Wendy
-# two_prefix_prefix_bad = Wendy can
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = matrix_question_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = matrix_question_npi_licensor_present496
-1	Wendy	Wendy	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
-3	ever	ever	ADV	RB	_	4	advmod	_	_
-4	regret	regret	VERB	VB	VerbForm=Inf	0	root	_	_
-5	Lisa	Lisa	PROPN	NNP	Number=Sing	6	nsubj	_	_
-6	ascends	ascend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
-7	some	some	DET	DT	_	8	det	_	_
-8	slope	slope	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
-9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Could Edward ever laugh?
 # sentence_bad = Edward could ever laugh.
 # two_prefix_prefix_good = Could Edward
@@ -11436,33 +11411,6 @@
 3	ever	ever	ADV	RB	_	4	advmod	_	_
 4	win	win	VERB	VB	VerbForm=Inf	0	root	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
-
-
-
-# sentence_good = Does Anne ever prod Steve's teacher to whisper?
-# sentence_bad = Anne does ever prod Steve's teacher to whisper.
-# two_prefix_prefix_good = Does Anne
-# two_prefix_prefix_bad = Anne does
-# two_prefix_word = ever
-# field = semantics
-# linguistics_term = npi_licensing
-# UID = matrix_question_npi_licensor_present
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = True
-# sent_id = matrix_question_npi_licensor_present499
-1	Anne	Anne	PROPN	NNP	Number=Sing	4	nsubj	_	_
-2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
-3	ever	ever	ADV	RB	_	4	advmod	_	_
-4	prod	prod	VERB	VB	VerbForm=Inf	0	root	_	_
-5-6	Steve's	_	_	_	_	_	_	_	_
-5	Steve	Steve	PROPN	NNP	Number=Sing	7	nmod:poss	_	_
-6	's	's	PART	POS	_	5	case	_	_
-7	teacher	teacher	NOUN	NN	Number=Sing	4	obj	_	_
-8	to	to	PART	TO	_	9	mark	_	_
-9	whisper	whisper	VERB	VB	VerbForm=Inf	4	advcl	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
 
 
 

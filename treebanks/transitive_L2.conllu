@@ -21706,30 +21706,6 @@
 
 
 
-# sentence_good = Every person conceals Ann's electrician.
-# sentence_bad = Every person smiles Ann's electrician.
-# two_prefix_prefix_good = Every person conceals
-# two_prefix_prefix_bad = Every person smiles
-# two_prefix_word = Ann's
-# field = syntax
-# linguistics_term = argument_structure
-# UID = transitive
-# simple_LM_method = True
-# one_prefix_method = False
-# two_prefix_method = True
-# lexically_identical = False
-# sent_id = transitive918
-1	Every	every	DET	DT	_	2	det	_	_
-2	person	person	NOUN	NN	Number=Sing	3	nsubj	_	_
-3	smiles	smile	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-4-5	Ann's	_	_	_	_	_	_	_	_
-4	Ann	Ann	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
-5	's	's	PART	POS	_	4	case	_	_
-6	electrician	electrician	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
-7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Rachel was driving to most museums.
 # sentence_bad = Rachel was lying most museums.
 # two_prefix_prefix_good = Rachel was driving to

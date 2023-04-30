@@ -9230,30 +9230,6 @@
 
 
 
-# sentence_good = Karla thinks that she appreciates Julie.
-# sentence_bad = Karla thinks that herself appreciates Julie.
-# one_prefix_prefix = Karla thinks that
-# one_prefix_word_good = she
-# one_prefix_word_bad = herself
-# field = syntax_semantics
-# linguistics_term = binding
-# UID = principle_A_case_1
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = principle_A_case_1352
-1	Karla	Karla	PROPN	NNP	Number=Sing	0	root	_	_
-
-1	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-2	that	that	SCONJ	IN	_	4	mark	_	_
-3	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	nsubj	_	_
-4	appreciates	appreciate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	_
-5	Julie	Julie	PROPN	NNP	Number=Sing	4	obj	_	SpaceAfter=No
-6	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = Carol explained that she cared for the boys.
 # sentence_bad = Carol explained that herself cared for the boys.
 # one_prefix_prefix = Carol explained that

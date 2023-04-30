@@ -14823,33 +14823,6 @@
 
 
 
-# sentence_good = The brothers of David implore Wendy to conceal Theodore.
-# sentence_bad = The brothers of David implores Wendy to conceal Theodore.
-# one_prefix_prefix = The brothers of David
-# one_prefix_word_good = implore
-# one_prefix_word_bad = implores
-# dependency_length = 4
-# field = morphology
-# linguistics_term = subject_verb_agreement
-# UID = distractor_agreement_relational_noun
-# simple_LM_method = True
-# one_prefix_method = True
-# two_prefix_method = False
-# lexically_identical = False
-# sent_id = distractor_agreement_relational_noun553
-1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
-2	brothers	brother	NOUN	NNS	Number=Plur	5	nsubj	_	_
-3	of	of	ADP	IN	_	4	case	_	_
-4	David	David	PROPN	NNP	Number=Sing	2	nmod	_	_
-5	implore	implore	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
-6	Wendy	Wendy	PROPN	NNP	Number=Sing	5	obj	_	_
-7	to	to	PART	TO	_	8	mark	_	_
-8	conceal	conceal	VERB	VB	VerbForm=Inf	5	xcomp	_	_
-9	Theodore	Theodore	PROPN	NNP	Number=Sing	8	obj	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
-
-
-
 # sentence_good = The friends of Raymond don't imagine Robert hadn't compelled Denise to wear those scarves.
 # sentence_bad = The friends of Raymond doesn't imagine Robert hadn't compelled Denise to wear those scarves.
 # one_prefix_prefix = The friends of Raymond
