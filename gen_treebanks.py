@@ -40,8 +40,8 @@ if __name__ == "__main__":
 			comment_lines = list(map(comment_line, pair.items()))
 			l1_conllu.append("\n".join(comment_lines) + "\n" + l1_sent)
 			l2_conllu.append("\n".join(comment_lines) + "\n" + l2_sent)
-		conllu_1_path = os.path.join(treebanks,subset_name + "_L1.conllu"
-		conllu_2_path = os.path.join(treebanks,subset_name + "_L2.conllu"
+		conllu_1_path = os.path.join(treebanks,subset_name + "_L1.conllu")
+		conllu_2_path = os.path.join(treebanks,subset_name + "_L2.conllu")
 		with open(conllu_1_path, 'w') as conllu_file:
 			conllu_file.write("\n\n".join(l1_conllu))
 		with open(conllu_2_path, 'w') as conllu_file:
