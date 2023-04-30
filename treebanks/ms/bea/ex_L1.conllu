@@ -1,0 +1,2154 @@
+# sentence_good = Most teachers have disliked themselves.
+# sentence_bad = Most teachers have disliked itself.
+# one_prefix_prefix = Most teachers have disliked
+# one_prefix_word_good = themselves
+# one_prefix_word_bad = itself
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement525
+1	Most	most	ADJ	JJS	Degree=Sup	2	amod	_	_
+2	teachers	teacher	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	disliked	dislike	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Who had Rhonda distracted while finding Chad?
+# sentence_bad = Who had Rhonda distracted Chad while finding?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island60
+1	Who	who	PRON	WP	PronType=Int	4	obj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	Rhonda	Rhonda	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	distracted	distract	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	while	while	SCONJ	IN	_	6	mark	_	_
+6	finding	find	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	Chad	Chad	PROPN	NNP	Number=Sing	6	obj	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Whose museums did Sonia bike to and Florence boycott?
+# sentence_bad = Whose did Sonia bike to museums and Florence boycott?
+# two_prefix_prefix_good = Whose museums did Sonia bike to and
+# two_prefix_prefix_bad = Whose did Sonia bike to museums and
+# two_prefix_word = Florence
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch399
+1	Whose	whose	DET	WDT	PronType=Int	2	det	_	_
+2	museums	museum	NOUN	NNS	Number=Plur	5	obj	_	_
+3	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	Sonia	Sonia	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	bike	bike	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	ADP	IN	_	9	case	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	Florence	Florence	PROPN	NNP	Number=Sing	6	conj	_	_
+9	boycott	boycott	NOUN	NN	Number=Sing	5	obl	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = That driver breaks those feet.
+# sentence_bad = That driver breaks those foot.
+# one_prefix_prefix = That driver breaks those
+# one_prefix_word_good = feet
+# one_prefix_word_bad = foot
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_1951
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	driver	driver	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	breaks	break	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	those	that	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	feet	foot	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = What people can Liam watch and Danielle conceal?
+# sentence_bad = What can Liam watch people and Danielle conceal?
+# two_prefix_prefix_good = What people can Liam watch and
+# two_prefix_prefix_bad = What can Liam watch people and
+# two_prefix_word = Danielle
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch529
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	5	obj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	Liam	Liam	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	watch	watch	VERB	VB	VerbForm=Inf	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	Danielle	Danielle	PROPN	NNP	Number=Sing	5	conj	_	_
+8	conceal	conceal	VERB	VB	VerbForm=Inf	5	conj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Who were all cars' worrying Winston Churchill scaring.
+# sentence_bad = Who were all cars' worrying scaring Winston Churchill.
+# field = syntax
+# linguistics_term = island_effects
+# UID = sentential_subject_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = sentential_subject_island339
+1	Who	who	PRON	WP	PronType=Int	9	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	cop	_	_
+3	all	all	DET	DT	_	4	det	_	_
+4-5	cars'	_	_	_	_	_	_	_	_
+4	cars	car	NOUN	NNS	Number=Plur	6	nmod:poss	_	_
+5	'	's	PART	POS	_	4	case	_	_
+6	worrying	worry	VERB	VBG	VerbForm=Ger	9	csubj	_	_
+7	Winston	Winston	PROPN	NNP	Number=Sing	9	nsubj	_	_
+8	Churchill	Churchill	PROPN	NNP	Number=Sing	7	flat	_	_
+9	scaring	scare	VERB	VBG	VerbForm=Ger	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+
+# sentence_good = What children is a nose disgusting and Nancy escaping from?
+# sentence_bad = What is a nose disgusting children and Nancy escaping from?
+# two_prefix_prefix_good = What children is a nose disgusting and
+# two_prefix_prefix_bad = What is a nose disgusting children and
+# two_prefix_word = Nancy
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch79
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	children	child	NOUN	NNS	Number=Plur	6	obj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	nose	nose	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	disgusting	disgust	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	Nancy	Nancy	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	escaping	escape	VERB	VBG	VerbForm=Ger	6	conj	_	_
+10	from	from	ADP	IN	_	9	obl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+
+# sentence_good = Women have watched themselves.
+# sentence_bad = Women have watched herself.
+# one_prefix_prefix = Women have watched
+# one_prefix_word_good = themselves
+# one_prefix_word_bad = herself
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement428
+1	Women	woman	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Ella hadn't walked through that important mall.
+# sentence_bad = Ella hadn't walked through that important malls.
+# one_prefix_prefix = Ella hadn't walked through that important
+# one_prefix_word_good = mall
+# one_prefix_word_bad = malls
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adjective_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adjective_1931
+1	Ella	Ella	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	hadn't	_	_	_	_	_	_	_	_
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	walked	walk	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	through	through	ADP	IN	_	8	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	important	important	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	mall	mall	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Sherry will fire these actresses.
+# sentence_bad = Sherry will fire these actress.
+# one_prefix_prefix = Sherry will fire these
+# one_prefix_word_good = actresses
+# one_prefix_word_bad = actress
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_1390
+1	Sherry	Sherry	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	fire	fire	VERB	VB	VerbForm=Inf	0	root	_	_
+4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	actresses	actress	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = A lot of guests have those cats.
+# sentence_bad = A lot of guests have those cat.
+# one_prefix_prefix = A lot of guests have those
+# one_prefix_word_good = cats
+# one_prefix_word_bad = cat
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_1918
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	lot	lot	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	guests	guest	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	those	that	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	cats	cat	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Who have these turtles astounded without impressing Naomi?
+# sentence_bad = Who have these turtles astounded Naomi without impressing?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island157
+1	Who	who	PRON	WP	PronType=Int	5	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+3	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	turtles	turtle	NOUN	NNS	Number=Plur	2	obj	_	_
+5	astounded	astound	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	without	without	SCONJ	IN	_	7	mark	_	_
+7	impressing	impress	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	Naomi	Naomi	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = What deer might Jane heal and the man bring?
+# sentence_bad = What might Jane heal deer and the man bring?
+# two_prefix_prefix_good = What deer might Jane heal and
+# two_prefix_prefix_bad = What might Jane heal deer and
+# two_prefix_word = the man
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch619
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	deer	deer	NOUN	NN	Number=Sing	5	obj	_	_
+3	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	Jane	Jane	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	heal	heal	VERB	VB	VerbForm=Inf	0	root	_	_
+6	and	and	CCONJ	CC	_	9	cc	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	man	man	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	bring	bring	VERB	VB	VerbForm=Inf	5	conj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = A teenager can conceal which analyses?
+# sentence_bad = Which can a teenager conceal analyses?
+# two_prefix_prefix_good = A teenager can conceal which
+# two_prefix_prefix_bad = Which can a teenager conceal
+# two_prefix_word = analyses
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question254
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	teenager	teenager	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	conceal	conceal	VERB	VB	VerbForm=Inf	0	root	_	_
+5	which	which	DET	WDT	PronType=Int	6	det	_	_
+6	analyses	analysis	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Melinda wasn't bringing this big oasis.
+# sentence_bad = Melinda wasn't bringing this big oases.
+# one_prefix_prefix = Melinda wasn't bringing this big
+# one_prefix_word_good = oasis
+# one_prefix_word_bad = oases
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_1973
+1	Melinda	Melinda	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	wasn't	_	_	_	_	_	_	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	bringing	bring	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	big	big	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	oasis	oasis	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Who might Gregory's partner that questioned Charles hug?
+# sentence_bad = Who might Charles hug Gregory's partner that questioned?
+# field = syntax
+# linguistics_term = island_effects
+# UID = complex_NP_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = complex_NP_island592
+1	Who	who	PRON	WP	PronType=Int	5	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+3-4	Gregory's	_	_	_	_	_	_	_	_
+3	Gregory	Gregory	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	partner	partner	NOUN	NN	Number=Sing	0	root	_	_
+6	that	that	PRON	WDT	PronType=Rel	7	nsubj	_	_
+7	questioned	question	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	Charles	Charles	PROPN	NNP	Number=Sing	7	obj	_	_
+9	hug	hug	PROPN	NNP	Number=Sing	8	flat	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = What weren't women who do love Travis's piano teachers arguing about?
+# sentence_bad = What weren't Travis's piano teachers arguing about women who do love?
+# field = syntax
+# linguistics_term = island_effects
+# UID = complex_NP_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = complex_NP_island513
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2-3	weren't	_	_	_	_	_	_	_	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	n't	not	PART	RB	_	1	advmod	_	_
+4	women	woman	NOUN	NNS	Number=Plur	1	nsubj	_	_
+5	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	love	love	VERB	VB	VerbForm=Inf	4	acl:relcl	_	_
+8-9	Travis's	_	_	_	_	_	_	_	_
+8	Travis	Travis	PROPN	NNP	Number=Sing	11	nmod:poss	_	_
+9	's	's	PART	POS	_	8	case	_	_
+10	piano	piano	NOUN	NN	Number=Sing	11	compound	_	_
+11	teachers	teacher	NOUN	NNS	Number=Plur	7	obj	_	_
+12	arguing	argue	VERB	VBG	VerbForm=Ger	7	xcomp	_	_
+13	about	about	ADP	IN	_	12	obl	_	SpaceAfter=No
+14	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+
+# sentence_good = Sonia has noticed that sick alumnus.
+# sentence_bad = Sonia has noticed that sick alumni.
+# one_prefix_prefix = Sonia has noticed that sick
+# one_prefix_word_good = alumnus
+# one_prefix_word_bad = alumni
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_1221
+1	Sonia	Sonia	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	noticed	notice	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	sick	sick	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	alumnus	alumnus	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Alice wouldn't describe this child.
+# sentence_bad = Alice wouldn't describe these child.
+# two_prefix_prefix_good = Alice wouldn't describe this
+# two_prefix_prefix_bad = Alice wouldn't describe these
+# two_prefix_word = child
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_2789
+1	Alice	Alice	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	wouldn't	_	_	_	_	_	_	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	describe	describe	VERB	VB	VerbForm=Inf	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	child	child	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = That person has fled from that high school.
+# sentence_bad = That person has fled from those high school.
+# two_prefix_prefix_good = That person has fled from that
+# two_prefix_prefix_bad = That person has fled from those
+# two_prefix_word = high school
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2581
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	person	person	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	fled	flee	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	from	from	ADP	IN	_	8	case	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+7	high	high	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	school	school	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = What actors has Tiffany bored?
+# sentence_bad = What has Tiffany bored actors?
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_simple_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = left_branch_island_simple_question359
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	actors	actor	NOUN	NNS	Number=Plur	5	obj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	Tiffany	Tiffany	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	bored	bore	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Many vases hadn't distracted these doctors.
+# sentence_bad = Many vases hadn't distracted this doctors.
+# two_prefix_prefix_good = Many vases hadn't distracted these
+# two_prefix_prefix_bad = Many vases hadn't distracted this
+# two_prefix_word = doctors
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2891
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	vases	vase	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3-4	hadn't	_	_	_	_	_	_	_	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	distracted	distract	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	doctors	doctor	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = This pedestrian arrives at that smooth oasis.
+# sentence_bad = This pedestrian arrives at those smooth oasis.
+# two_prefix_prefix_good = This pedestrian arrives at that smooth
+# two_prefix_prefix_bad = This pedestrian arrives at those smooth
+# two_prefix_word = oasis
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_2715
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	pedestrian	pedestrian	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	arrives	arrive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	7	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	smooth	smooth	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	oasis	oasis	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Who would some newspaper article disagree with without stunning Stacey?
+# sentence_bad = Who would some newspaper article disagree with Stacey without stunning?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island597
+1	Who	who	PRON	WP	PronType=Int	6	obl	_	_
+2	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+3	some	some	DET	DT	_	5	det	_	_
+4	newspaper	newspaper	NOUN	NN	Number=Sing	5	compound	_	_
+5	article	article	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	disagree	disagree	VERB	VB	VerbForm=Inf	0	root	_	_
+7	with	with	ADP	IN	_	6	obl	_	_
+8	without	without	SCONJ	IN	_	9	mark	_	_
+9	stunning	stun	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	Stacey	Stacey	PROPN	NNP	Number=Sing	9	obj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+
+# sentence_good = Some bicycle had looked like which drawing?
+# sentence_bad = Which had some bicycle looked like drawing?
+# two_prefix_prefix_good = Some bicycle had looked like which
+# two_prefix_prefix_bad = Which had some bicycle looked like
+# two_prefix_word = drawing
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question579
+1	Some	some	DET	DT	_	2	det	_	_
+2	bicycle	bicycle	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	looked	look	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	like	like	SCONJ	IN	_	7	case	_	_
+6	which	which	DET	WDT	PronType=Int	7	det	_	_
+7	drawing	drawing	NOUN	NN	Number=Sing	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Chad is astounding whose hospital?
+# sentence_bad = Whose is Chad astounding hospital?
+# two_prefix_prefix_good = Chad is astounding whose
+# two_prefix_prefix_bad = Whose is Chad astounding
+# two_prefix_word = hospital
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question947
+1	Chad	Chad	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	astounding	astounding	ADJ	JJ	Degree=Pos	0	root	_	_
+4	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	5	nmod:poss	_	_
+5	hospital	hospital	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Most adults drop by these schools.
+# sentence_bad = Most adults drop by this schools.
+# two_prefix_prefix_good = Most adults drop by these
+# two_prefix_prefix_bad = Most adults drop by this
+# two_prefix_word = schools
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2177
+1	Most	most	ADJ	JJS	Degree=Sup	2	amod	_	_
+2	adults	adult	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	drop	drop	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	by	by	ADP	IN	_	6	case	_	_
+5	these	this	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	schools	school	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Homer does descend what ladders?
+# sentence_bad = What does Homer descend ladders?
+# two_prefix_prefix_good = Homer does descend what
+# two_prefix_prefix_bad = What does Homer descend
+# two_prefix_word = ladders
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question167
+1	Homer	Homer	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	descend	descend	VERB	VB	VerbForm=Inf	0	root	_	_
+4	what	what	DET	WDT	PronType=Int	5	det	_	_
+5	ladders	ladder	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Elizabeth notices that octopus.
+# sentence_bad = Elizabeth notices that octopi.
+# one_prefix_prefix = Elizabeth notices that
+# one_prefix_word_good = octopus
+# one_prefix_word_bad = octopi
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_1840
+1	Elizabeth	Elizabeth	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	notices	notice	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	_	4	det	_	_
+4	octopus	octopus	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Some patients disagree with that popular guest.
+# sentence_bad = Some patients disagree with those popular guest.
+# two_prefix_prefix_good = Some patients disagree with that popular
+# two_prefix_prefix_bad = Some patients disagree with those popular
+# two_prefix_word = guest
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_2218
+1	Some	some	DET	DT	_	2	det	_	_
+2	patients	patient	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	disagree	disagree	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	popular	popular	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	guest	guest	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Charles irritated this man.
+# sentence_bad = Charles irritated this men.
+# one_prefix_prefix = Charles irritated this
+# one_prefix_word_good = man
+# one_prefix_word_bad = men
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_1365
+1	Charles	Charles	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	irritated	irritate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	man	man	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Samuel did sound like this museum.
+# sentence_bad = Samuel did sound like this museums.
+# one_prefix_prefix = Samuel did sound like this
+# one_prefix_word_good = museum
+# one_prefix_word_bad = museums
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_1652
+1	Samuel	Samuel	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	sound	sound	VERB	VB	VerbForm=Inf	0	root	_	_
+4	like	like	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	museum	museum	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Suzanne shouldn't reveal that thesis.
+# sentence_bad = Suzanne shouldn't reveal those thesis.
+# two_prefix_prefix_good = Suzanne shouldn't reveal that
+# two_prefix_prefix_bad = Suzanne shouldn't reveal those
+# two_prefix_word = thesis
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_2747
+1	Suzanne	Suzanne	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	shouldn't	_	_	_	_	_	_	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	reveal	reveal	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	thesis	thesis	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = What would Julia wear while admiring a dress?
+# sentence_bad = What would Julia wear a dress while admiring?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island374
+1	What	what	PRON	WP	PronType=Int	4	obj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	Julia	Julia	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	wear	wear	VERB	VB	VerbForm=Inf	0	root	_	_
+5	while	while	SCONJ	IN	_	6	mark	_	_
+6	admiring	admire	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	dress	dress	NOUN	NN	Number=Sing	6	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Diana isn't stunning that student.
+# sentence_bad = Diana isn't stunning those student.
+# two_prefix_prefix_good = Diana isn't stunning that
+# two_prefix_prefix_bad = Diana isn't stunning those
+# two_prefix_word = student
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_251
+1	Diana	Diana	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	isn't	_	_	_	_	_	_	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	stunning	stunning	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	student	student	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = The apple aggravates this hidden library.
+# sentence_bad = The apple aggravates these hidden library.
+# two_prefix_prefix_good = The apple aggravates this hidden
+# two_prefix_prefix_bad = The apple aggravates these hidden
+# two_prefix_word = library
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_2942
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	apple	apple	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	aggravates	aggravate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	hidden	hide	VERB	VBN	Tense=Past|VerbForm=Part	6	amod	_	_
+6	library	library	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Janice has that goose.
+# sentence_bad = Janice has those goose.
+# two_prefix_prefix_good = Janice has that
+# two_prefix_prefix_bad = Janice has those
+# two_prefix_word = goose
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_2416
+1	Janice	Janice	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	goose	goose	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Rebecca did buy which lakes?
+# sentence_bad = Which did Rebecca buy lakes?
+# two_prefix_prefix_good = Rebecca did buy which
+# two_prefix_prefix_bad = Which did Rebecca buy
+# two_prefix_word = lakes
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question577
+1	Rebecca	Rebecca	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	buy	buy	VERB	VB	VerbForm=Inf	0	root	_	_
+4	which	which	DET	WDT	PronType=Int	5	det	_	_
+5	lakes	lake	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Who was every rug boring before confusing Rachel?
+# sentence_bad = Who was every rug boring Rachel before confusing?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island734
+1	Who	who	PRON	WP	PronType=Int	5	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+3	every	every	DET	DT	_	4	det	_	_
+4	rug	rug	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	boring	boring	ADJ	JJ	Degree=Pos	0	root	_	_
+6	before	before	SCONJ	IN	_	7	mark	_	_
+7	confusing	confuse	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	Rachel	Rachel	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = That waiter had astounded these lucky people.
+# sentence_bad = That waiter had astounded this lucky people.
+# two_prefix_prefix_good = That waiter had astounded these lucky
+# two_prefix_prefix_bad = That waiter had astounded this lucky
+# two_prefix_word = people
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_2495
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	waiter	waiter	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	astounded	astound	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+6	lucky	lucky	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	people	people	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Who would Sarah's grandfather who notices Laura dislike?
+# sentence_bad = Who would Laura dislike Sarah's grandfather who notices?
+# field = syntax
+# linguistics_term = island_effects
+# UID = complex_NP_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = complex_NP_island301
+1	Who	who	PRON	WP	PronType=Int	5	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+3-4	Sarah's	_	_	_	_	_	_	_	_
+3	Sarah	Sarah	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	grandfather	grandfather	NOUN	NN	Number=Sing	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	notices	notice	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	_
+8	Laura	Laura	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	dislike	dislike	VERB	VB	VerbForm=Inf	7	ccomp	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Who wasn't most children's teacher that fired Robert astounding?
+# sentence_bad = Who wasn't Robert astounding most children's teacher that fired?
+# field = syntax
+# linguistics_term = island_effects
+# UID = complex_NP_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = complex_NP_island756
+1	Who	who	PRON	WP	PronType=Int	0	root	_	_
+2-3	wasn't	_	_	_	_	_	_	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	n't	not	PART	RB	_	1	advmod	_	_
+4	most	most	ADJ	JJS	Degree=Sup	5	amod	_	_
+5-6	children's	_	_	_	_	_	_	_	_
+5	children	child	NOUN	NNS	Number=Plur	7	nmod:poss	_	_
+6	's	's	PART	POS	_	5	case	_	_
+7	teacher	teacher	NOUN	NN	Number=Sing	1	nsubj	_	_
+8	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+9	fired	fire	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	acl:relcl	_	_
+10	Robert	Robert	PROPN	NNP	Number=Sing	9	obj	_	_
+11	astounding	astounding	PROPN	NNP	Number=Sing	10	flat	_	SpaceAfter=No
+12	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+
+# sentence_good = Who have some waitresses' irritating the dancer stunned.
+# sentence_bad = Who have some waitresses' irritating stunned the dancer.
+# field = syntax
+# linguistics_term = island_effects
+# UID = sentential_subject_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = sentential_subject_island343
+1	Who	who	PRON	WP	PronType=Int	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	waitresses	waitress	NOUN	NNS	Number=Plur	2	obj	_	SpaceAfter=No
+5	'	's	PART	POS	_	4	case	_	_
+6	irritating	irritate	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	dancer	dancer	NOUN	NN	Number=Sing	9	nsubj	_	_
+9	stunned	stunn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	9	punct	_	SpaceAfter=No
+
+# sentence_good = Every senator hasn't kissed these alumni.
+# sentence_bad = Every senator hasn't kissed this alumni.
+# two_prefix_prefix_good = Every senator hasn't kissed these
+# two_prefix_prefix_bad = Every senator hasn't kissed this
+# two_prefix_word = alumni
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_2730
+1	Every	every	DET	DT	_	2	det	_	_
+2	senator	senator	NOUN	NN	Number=Sing	5	nsubj	_	_
+3-4	hasn't	_	_	_	_	_	_	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	kissed	kiss	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	alumni	alumni	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Who should the bread irritate before upsetting Sherry?
+# sentence_bad = Who should the bread irritate Sherry before upsetting?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island802
+1	Who	who	PRON	WP	PronType=Int	5	obj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	bread	bread	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	irritate	irritate	VERB	VB	VerbForm=Inf	0	root	_	_
+6	before	before	SCONJ	IN	_	7	mark	_	_
+7	upsetting	upset	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	Sherry	Sherry	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Linda has thought about this hypothesis.
+# sentence_bad = Linda has thought about this hypotheses.
+# one_prefix_prefix = Linda has thought about this
+# one_prefix_word_good = hypothesis
+# one_prefix_word_bad = hypotheses
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_1437
+1	Linda	Linda	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	hypothesis	hypothesis	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Drivers dislike that cafe.
+# sentence_bad = Drivers dislike those cafe.
+# two_prefix_prefix_good = Drivers dislike that
+# two_prefix_prefix_bad = Drivers dislike those
+# two_prefix_word = cafe
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2304
+1	Drivers	driver	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	dislike	dislike	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	cafe	cafe	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Some slope has annoyed these clever ladies.
+# sentence_bad = Some slope has annoyed this clever ladies.
+# two_prefix_prefix_good = Some slope has annoyed these clever
+# two_prefix_prefix_bad = Some slope has annoyed this clever
+# two_prefix_word = ladies
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_2531
+1	Some	some	DET	DT	_	2	det	_	_
+2	slope	slope	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	annoyed	annoy	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+6	clever	clever	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	ladies	lady	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Kimberley isn't curing these small octopi.
+# sentence_bad = Kimberley isn't curing this small octopi.
+# two_prefix_prefix_good = Kimberley isn't curing these small
+# two_prefix_prefix_bad = Kimberley isn't curing this small
+# two_prefix_word = octopi
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_2852
+1	Kimberley	Kimberley	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	isn't	_	_	_	_	_	_	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	curing	cure	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+6	small	small	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	octopi	octopi	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Homer can find himself.
+# sentence_bad = Homer can find themselves.
+# one_prefix_prefix = Homer can find
+# one_prefix_word_good = himself
+# one_prefix_word_bad = themselves
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement560
+1	Homer	Homer	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	find	find	VERB	VB	VerbForm=Inf	0	root	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Elaine isn't boasting about these ellipses.
+# sentence_bad = Elaine isn't boasting about these ellipsis.
+# one_prefix_prefix = Elaine isn't boasting about these
+# one_prefix_word_good = ellipses
+# one_prefix_word_bad = ellipsis
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_1405
+1	Elaine	Elaine	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	isn't	_	_	_	_	_	_	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	boasting	boast	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	about	about	ADP	IN	_	7	case	_	_
+6	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	ellipses	ellipse	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Todd was questioning that woman.
+# sentence_bad = Todd was questioning those woman.
+# two_prefix_prefix_good = Todd was questioning that
+# two_prefix_prefix_bad = Todd was questioning those
+# two_prefix_word = woman
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_2589
+1	Todd	Todd	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	questioning	question	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	woman	woman	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Who wasn't Debra's grandson that hasn't revealed this waitress's boss confusing?
+# sentence_bad = Who wasn't this waitress's boss confusing Debra's grandson that hasn't revealed?
+# field = syntax
+# linguistics_term = island_effects
+# UID = complex_NP_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = complex_NP_island227
+1	Who	who	PRON	WP	PronType=Int	6	nsubj	_	_
+2-3	wasn't	_	_	_	_	_	_	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+3	n't	not	PART	RB	_	6	advmod	_	_
+4-5	Debra's	_	_	_	_	_	_	_	_
+4	Debra	Debra	PROPN	NNP	Number=Sing	6	nmod:poss	_	_
+5	's	's	PART	POS	_	4	case	_	_
+6	grandson	grandson	NOUN	NN	Number=Sing	0	root	_	_
+7	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+8-9	hasn't	_	_	_	_	_	_	_	_
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+9	n't	not	PART	RB	_	10	advmod	_	_
+10	revealed	reveal	VERB	VBN	Tense=Past|VerbForm=Part	6	acl:relcl	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+12	waitress's	waitress'	NOUN	NNS	Number=Plur	13	compound	_	_
+13	boss	boss	NOUN	NN	Number=Sing	10	obj	_	_
+14	confusing	confuse	VERB	VBG	VerbForm=Ger	10	xcomp	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+
+# sentence_good = Who would Kayla's colleague who watched Thomas escape from?
+# sentence_bad = Who would Thomas escape from Kayla's colleague who watched?
+# field = syntax
+# linguistics_term = island_effects
+# UID = complex_NP_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = complex_NP_island129
+1	Who	who	PRON	WP	PronType=Int	5	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+3-4	Kayla's	_	_	_	_	_	_	_	_
+3	Kayla	Kayla	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	colleague	colleague	NOUN	NN	Number=Sing	0	root	_	_
+6	who	who	PRON	WP	PronType=Rel	7	nsubj	_	_
+7	watched	watch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	acl:relcl	_	_
+8	Thomas	Thomas	PROPN	NNP	Number=Sing	7	obj	_	_
+9	escape	escape	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	from	from	ADP	IN	_	9	obl	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Who were all patients' discovering Jason irritating.
+# sentence_bad = Who were all patients' discovering irritating Jason.
+# field = syntax
+# linguistics_term = island_effects
+# UID = sentential_subject_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = sentential_subject_island350
+1	Who	who	PRON	WP	PronType=Int	6	obj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	aux	_	_
+3	all	all	DET	DT	_	4	det	_	_
+4-5	patients'	_	_	_	_	_	_	_	_
+4	patients	patient	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	'	's	PART	POS	_	4	case	_	_
+6	discovering	discover	VERB	VBG	VerbForm=Ger	0	root	_	_
+7	Jason	Jason	PROPN	NNP	Number=Sing	6	obj	_	_
+8	irritating	irritate	VERB	VBG	VerbForm=Ger	6	advcl	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+
+# sentence_good = What convertibles are these photographs looking like and Kirsten finding?
+# sentence_bad = What are these photographs looking like convertibles and Kirsten finding?
+# two_prefix_prefix_good = What convertibles are these photographs looking like and
+# two_prefix_prefix_bad = What are these photographs looking like convertibles and
+# two_prefix_word = Kirsten
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch813
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	convertibles	convertible	NOUN	NNS	Number=Plur	0	root	_	_
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	these	this	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	photographs	photograph	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	looking	look	VERB	VBG	VerbForm=Ger	5	acl	_	_
+7	like	like	ADP	IN	_	6	obl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	Kirsten	Kirsten	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	finding	find	VERB	VBG	VerbForm=Ger	6	conj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Many dancers are concealing themselves.
+# sentence_bad = Many dancers are concealing itself.
+# one_prefix_prefix = Many dancers are concealing
+# one_prefix_word_good = themselves
+# one_prefix_word_bad = itself
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement308
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	dancers	dancer	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	concealing	conceal	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Those guests were passing whose libraries?
+# sentence_bad = Whose were those guests passing libraries?
+# two_prefix_prefix_good = Those guests were passing whose
+# two_prefix_prefix_bad = Whose were those guests passing
+# two_prefix_word = libraries
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question618
+1	Those	that	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	guests	guest	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	passing	pass	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	6	nmod:poss	_	_
+6	libraries	library	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Tara can complain about which girl?
+# sentence_bad = Which can Tara complain about girl?
+# two_prefix_prefix_good = Tara can complain about which
+# two_prefix_prefix_bad = Which can Tara complain about
+# two_prefix_word = girl
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question770
+1	Tara	Tara	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	complain	complain	VERB	VB	VerbForm=Inf	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	which	which	DET	WDT	PronType=Int	6	det	_	_
+6	girl	girl	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Samantha is lifting that hard painting.
+# sentence_bad = Samantha is lifting those hard painting.
+# two_prefix_prefix_good = Samantha is lifting that hard
+# two_prefix_prefix_bad = Samantha is lifting those hard
+# two_prefix_word = painting
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_2930
+1	Samantha	Samantha	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	lifting	lift	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	hard	hard	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	painting	painting	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = A lot of actors explore these hospitals.
+# sentence_bad = A lot of actors explore this hospitals.
+# two_prefix_prefix_good = A lot of actors explore these
+# two_prefix_prefix_bad = A lot of actors explore this
+# two_prefix_word = hospitals
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2754
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	lot	lot	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	actors	actor	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	explore	explore	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	hospitals	hospital	NOUN	NNS	Number=Plur	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = This cashier is leaving this employed person.
+# sentence_bad = This cashier is leaving these employed person.
+# two_prefix_prefix_good = This cashier is leaving this employed
+# two_prefix_prefix_bad = This cashier is leaving these employed
+# two_prefix_word = person
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_2702
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	cashier	cashier	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	employed	employ	VERB	VBN	Tense=Past|VerbForm=Part	7	amod	_	_
+7	person	person	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Most children admired themselves.
+# sentence_bad = Most children admired himself.
+# one_prefix_prefix = Most children admired
+# one_prefix_word_good = themselves
+# one_prefix_word_bad = himself
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement400
+1	Most	most	ADJ	JJS	Degree=Sup	2	amod	_	_
+2	children	child	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	admired	admire	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+4	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = What lady can Steve care for?
+# sentence_bad = What can Steve care for lady?
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_simple_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = left_branch_island_simple_question493
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	lady	lady	NOUN	NN	Number=Sing	5	obl	_	_
+3	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	Steve	Steve	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	care	care	VERB	VB	VerbForm=Inf	0	root	_	_
+6	for	for	ADP	IN	_	2	case	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Kathleen wouldn't discuss that alumnus.
+# sentence_bad = Kathleen wouldn't discuss those alumnus.
+# two_prefix_prefix_good = Kathleen wouldn't discuss that
+# two_prefix_prefix_bad = Kathleen wouldn't discuss those
+# two_prefix_word = alumnus
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_212
+1	Kathleen	Kathleen	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	wouldn't	_	_	_	_	_	_	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	discuss	discuss	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	alumnus	alumnus	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = These universities do alarm those good universities.
+# sentence_bad = These universities do alarm those good university.
+# one_prefix_prefix = These universities do alarm those good
+# one_prefix_word_good = universities
+# one_prefix_word_bad = university
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adjective_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adjective_1355
+1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	universities	university	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	alarm	alarm	VERB	VB	VerbForm=Inf	0	root	_	_
+5	those	that	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+6	good	good	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	universities	university	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Bruce has worked with this lost child.
+# sentence_bad = Bruce has worked with this lost children.
+# one_prefix_prefix = Bruce has worked with this lost
+# one_prefix_word_good = child
+# one_prefix_word_bad = children
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_144
+1	Bruce	Bruce	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	with	with	ADP	IN	_	7	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	lost	lost	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	child	child	NOUN	NN	Number=Sing	3	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = April hasn't fixed those plates.
+# sentence_bad = April hasn't fixed those plate.
+# one_prefix_prefix = April hasn't fixed those
+# one_prefix_word_good = plates
+# one_prefix_word_bad = plate
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_1952
+1	April	April	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	hasn't	_	_	_	_	_	_	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	those	that	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	plates	plate	NOUN	NNS	Number=Plur	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Craig will annoy himself.
+# sentence_bad = Craig will annoy themselves.
+# one_prefix_prefix = Craig will annoy
+# one_prefix_word_good = himself
+# one_prefix_word_bad = themselves
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement967
+1	Craig	Craig	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	will	will	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	annoy	annoy	VERB	VB	VerbForm=Inf	0	root	_	_
+4	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Anne leaves this person.
+# sentence_bad = Anne leaves these person.
+# two_prefix_prefix_good = Anne leaves this
+# two_prefix_prefix_bad = Anne leaves these
+# two_prefix_word = person
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_2351
+1	Anne	Anne	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	leaves	leave	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	person	person	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Some doctor had arrived at what malls?
+# sentence_bad = What had some doctor arrived at malls?
+# two_prefix_prefix_good = Some doctor had arrived at what
+# two_prefix_prefix_bad = What had some doctor arrived at
+# two_prefix_word = malls
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question943
+1	Some	some	DET	DT	_	2	det	_	_
+2	doctor	doctor	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	arrived	arrive	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	at	at	ADP	IN	_	7	case	_	_
+6	what	what	DET	WDT	PronType=Int	7	det	_	_
+7	malls	mall	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Deborah should complain about whose pamphlets?
+# sentence_bad = Whose should Deborah complain about pamphlets?
+# two_prefix_prefix_good = Deborah should complain about whose
+# two_prefix_prefix_bad = Whose should Deborah complain about
+# two_prefix_word = pamphlets
+# field = syntax
+# linguistics_term = island_effects
+# UID = left_branch_island_echo_question
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = left_branch_island_echo_question419
+1	Deborah	Deborah	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	complain	complain	VERB	VB	VerbForm=Inf	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	whose	whose	PRON	WP$	Poss=Yes|PronType=Rel	6	nmod:poss	_	_
+6	pamphlets	pamphlet	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	?	?	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = What adults could Scott insult and Douglas reference?
+# sentence_bad = What could Scott insult adults and Douglas reference?
+# two_prefix_prefix_good = What adults could Scott insult and
+# two_prefix_prefix_bad = What could Scott insult adults and
+# two_prefix_word = Douglas
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch283
+1	What	what	DET	WDT	PronType=Int	2	det	_	_
+2	adults	adult	NOUN	NNS	Number=Plur	5	obj	_	_
+3	could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	Scott	Scott	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	insult	insult	VERB	VB	VerbForm=Inf	0	root	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	Douglas	Douglas	PROPN	NNP	Number=Sing	5	conj	_	_
+8	reference	reference	VERB	VB	VerbForm=Inf	5	conj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	8	punct	_	SpaceAfter=No
+
+# sentence_good = Some women reference that popular commentary.
+# sentence_bad = Some women reference those popular commentary.
+# two_prefix_prefix_good = Some women reference that popular
+# two_prefix_prefix_bad = Some women reference those popular
+# two_prefix_word = commentary
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_2124
+1	Some	some	DET	DT	_	2	det	_	_
+2	women	woman	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	reference	reference	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	popular	popular	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	commentary	commentary	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = A lot of drawings weren't alarming that displeased man.
+# sentence_bad = A lot of drawings weren't alarming those displeased man.
+# two_prefix_prefix_good = A lot of drawings weren't alarming that displeased
+# two_prefix_prefix_bad = A lot of drawings weren't alarming those displeased
+# two_prefix_word = man
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_2420
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	lot	lot	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	drawings	drawing	NOUN	NNS	Number=Plur	2	nmod	_	_
+5-6	weren't	_	_	_	_	_	_	_	_
+5	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	alarming	alarm	VERB	VBG	Degree=Pos	0	root	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	displeased	displeased	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	man	man	NOUN	NN	Number=Sing	7	obj	_	SpaceAfter=No
+11	.	.	PUNCT	.	_	7	punct	_	SpaceAfter=No
+
+# sentence_good = Who has a school's criticizing Irene worried.
+# sentence_bad = Who has a school's criticizing worried Irene.
+# field = syntax
+# linguistics_term = island_effects
+# UID = sentential_subject_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = sentential_subject_island746
+1	Who	who	PRON	WP	PronType=Int	2	nsubj	_	_
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4-5	school's	_	_	_	_	_	_	_	_
+4	school	school	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	's	's	PART	POS	_	4	case	_	_
+6	criticizing	criticize	VERB	VBG	VerbForm=Ger	2	xcomp	_	_
+7	Irene	Irene	PROPN	NNP	Number=Sing	6	obj	_	_
+8	worried	worry	ADJ	JJ	Degree=Pos	6	xcomp	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Who were many malls' upsetting Derek aggravating.
+# sentence_bad = Who were many malls' upsetting aggravating Derek.
+# field = syntax
+# linguistics_term = island_effects
+# UID = sentential_subject_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = sentential_subject_island611
+1	Who	who	PRON	WP	PronType=Int	8	nsubj	_	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4-5	malls'	_	_	_	_	_	_	_	_
+4	malls	mall	NOUN	NNS	Number=Plur	7	nmod:poss	_	_
+5	'	's	PART	POS	_	4	case	_	_
+6	upsetting	upset	ADJ	VBG	Degree=Pos	7	amod	_	_
+7	Derek	Derek	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	aggravating	aggravate	VERB	VBG	VerbForm=Ger	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	.	_	8	punct	_	SpaceAfter=No
+
+# sentence_good = The patients talk to those adults.
+# sentence_bad = The patients talk to that adults.
+# two_prefix_prefix_good = The patients talk to those
+# two_prefix_prefix_bad = The patients talk to that
+# two_prefix_word = adults
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2454
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	patients	patient	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	talk	talk	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	those	that	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	adults	adult	NOUN	NNS	Number=Plur	3	obl	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Brenda was kissing this determined child.
+# sentence_bad = Brenda was kissing this determined children.
+# one_prefix_prefix = Brenda was kissing this determined
+# one_prefix_word_good = child
+# one_prefix_word_bad = children
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_1943
+1	Brenda	Brenda	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	kissing	kiss	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+5	determined	determined	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	child	child	NOUN	NN	Number=Sing	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Who are Carla's dentists that hadn't disliked every girl's sisters concealing?
+# sentence_bad = Who are every girl's sisters concealing Carla's dentists that hadn't disliked?
+# field = syntax
+# linguistics_term = island_effects
+# UID = complex_NP_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = complex_NP_island978
+1	Who	who	PRON	WP	PronType=Int	0	root	_	_
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3-4	Carla's	_	_	_	_	_	_	_	_
+3	Carla	Carla	PROPN	NNP	Number=Sing	5	nmod:poss	_	_
+4	's	's	PART	POS	_	3	case	_	_
+5	dentists	dentist	NOUN	NNS	Number=Plur	1	nsubj	_	_
+6	that	that	PRON	WDT	PronType=Rel	9	nsubj	_	_
+7-8	hadn't	_	_	_	_	_	_	_	_
+7	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	n't	not	PART	RB	_	9	advmod	_	_
+9	disliked	dislike	VERB	VBN	Tense=Past|VerbForm=Part	5	acl:relcl	_	_
+10	every	every	DET	DT	_	11	det	_	_
+11-12	girl's	_	_	_	_	_	_	_	_
+11	girl	girl	NOUN	NN	Number=Sing	13	nmod:poss	_	_
+12	's	's	PART	POS	_	11	case	_	_
+13	sisters	sister	NOUN	NNS	Number=Plur	9	obj	_	_
+14	concealing	conceal	VERB	VBG	VerbForm=Ger	9	xcomp	_	SpaceAfter=No
+15	?	?	PUNCT	.	_	1	punct	_	SpaceAfter=No
+
+# sentence_good = This cashier isn't wearing that skirt.
+# sentence_bad = This cashier isn't wearing that skirts.
+# one_prefix_prefix = This cashier isn't wearing that
+# one_prefix_word_good = skirt
+# one_prefix_word_bad = skirts
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_1905
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	cashier	cashier	NOUN	NN	Number=Sing	5	nsubj	_	_
+3-4	isn't	_	_	_	_	_	_	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	skirt	skirt	NOUN	NN	Number=Sing	5	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = All actors will dislike themselves.
+# sentence_bad = All actors will dislike itself.
+# one_prefix_prefix = All actors will dislike
+# one_prefix_word_good = themselves
+# one_prefix_word_bad = itself
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement714
+1	All	all	DET	DT	_	2	det	_	_
+2	actors	actor	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	will	will	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	dislike	dislike	VERB	VB	VerbForm=Inf	0	root	_	_
+5	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Who might that actor hide before hiding Russell?
+# sentence_bad = Who might that actor hide Russell before hiding?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island281
+1	Who	who	PRON	WP	PronType=Int	5	obj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	that	that	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	actor	actor	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	hide	hide	VERB	VB	VerbForm=Inf	0	root	_	_
+6	before	before	SCONJ	IN	_	7	mark	_	_
+7	hiding	hide	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	Russell	Russell	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Becky distracted this important hospital.
+# sentence_bad = Becky distracted this important hospitals.
+# one_prefix_prefix = Becky distracted this important
+# one_prefix_word_good = hospital
+# one_prefix_word_bad = hospitals
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adjective_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adjective_1980
+1	Becky	Becky	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	distracted	distract	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+4	important	important	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	hospital	hospital	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Brian wasn't fleeing from these actors.
+# sentence_bad = Brian wasn't fleeing from this actors.
+# two_prefix_prefix_good = Brian wasn't fleeing from these
+# two_prefix_prefix_bad = Brian wasn't fleeing from this
+# two_prefix_word = actors
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2948
+1	Brian	Brian	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	wasn't	_	_	_	_	_	_	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	fleeing	flee	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	from	from	ADP	IN	_	7	case	_	_
+6	these	this	DET	DT	Number=Plur|PronType=Dem	7	det	_	_
+7	actors	actor	NOUN	NNS	Number=Plur	4	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Dennis wasn't concealing that customer.
+# sentence_bad = Dennis wasn't concealing those customer.
+# two_prefix_prefix_good = Dennis wasn't concealing that
+# two_prefix_prefix_bad = Dennis wasn't concealing those
+# two_prefix_word = customer
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2596
+1	Dennis	Dennis	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	wasn't	_	_	_	_	_	_	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	concealing	conceal	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	customer	customer	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = The bird had found that dish.
+# sentence_bad = The bird had found those dish.
+# two_prefix_prefix_good = The bird had found that
+# two_prefix_prefix_bad = The bird had found those
+# two_prefix_word = dish
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2477
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	bird	bird	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	found	find	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	dish	dish	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = These adults hadn't escaped from themselves.
+# sentence_bad = These adults hadn't escaped from itself.
+# one_prefix_prefix = These adults hadn't escaped from
+# one_prefix_word_good = themselves
+# one_prefix_word_bad = itself
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement272
+1	These	this	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	adults	adult	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3-4	hadn't	_	_	_	_	_	_	_	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	aux	_	_
+4	n't	not	PART	RB	_	5	advmod	_	_
+5	escaped	escape	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	from	from	ADP	IN	_	7	case	_	_
+7	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	5	obl	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Who were these committees' distracting Stephen disagreeing with.
+# sentence_bad = Who were these committees' distracting disagreeing with Stephen.
+# field = syntax
+# linguistics_term = island_effects
+# UID = sentential_subject_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = sentential_subject_island749
+1	Who	who	PRON	WP	PronType=Int	0	root	_	_
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	cop	_	_
+3	these	this	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4-5	committees'	_	_	_	_	_	_	_	_
+4	committees	committee	NOUN	NNS	Number=Plur	7	nmod:poss	_	_
+5	'	's	PART	POS	_	4	case	_	_
+6	distracting	distracting	ADJ	JJ	Degree=Pos	1	amod	_	_
+7	Stephen	Stephen	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	disagreeing	disagree	VERB	VBG	VerbForm=Ger	1	acl:relcl	_	_
+9	with	with	ADP	IN	_	8	obl	_	SpaceAfter=No
+10	.	.	PUNCT	.	_	1	punct	_	SpaceAfter=No
+
+# sentence_good = Which people will Laura listen to and Meredith embarrass?
+# sentence_bad = Which will Laura listen to people and Meredith embarrass?
+# two_prefix_prefix_good = Which people will Laura listen to and
+# two_prefix_prefix_bad = Which will Laura listen to people and
+# two_prefix_word = Meredith
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch707
+1	Which	which	DET	WDT	PronType=Int	2	det	_	_
+2	people	people	NOUN	NNS	Number=Plur	5	obl	_	_
+3	will	will	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	Laura	Laura	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	listen	listen	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	ADP	IN	_	2	case	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	Meredith	Meredith	PROPN	NNP	Number=Sing	9	nsubj	_	_
+9	embarrass	embarrass	VERB	VB	VerbForm=Inf	5	conj	_	SpaceAfter=No
+10	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Who should books aggravate before disagreeing with Melinda?
+# sentence_bad = Who should books aggravate Melinda before disagreeing with?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island560
+1	Who	who	PRON	WP	PronType=Int	4	obj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	books	book	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	aggravate	aggravate	VERB	VB	VerbForm=Inf	0	root	_	_
+5	before	before	SCONJ	IN	_	6	mark	_	_
+6	disagreeing	disagree	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	with	with	ADP	IN	_	8	case	_	_
+8	Melinda	Melinda	PROPN	NNP	Number=Sing	6	obl	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = That woman had criticized herself.
+# sentence_bad = That woman had criticized themselves.
+# one_prefix_prefix = That woman had criticized
+# one_prefix_word_good = herself
+# one_prefix_word_bad = themselves
+# field = morphology
+# linguistics_term = anaphor_agreement
+# UID = anaphor_number_agreement
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = anaphor_number_agreement321
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	woman	woman	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+4	criticized	criticize	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+
+# sentence_good = Denise was referencing those actors.
+# sentence_bad = Denise was referencing that actors.
+# two_prefix_prefix_good = Denise was referencing those
+# two_prefix_prefix_bad = Denise was referencing that
+# two_prefix_word = actors
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_2603
+1	Denise	Denise	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	referencing	reference	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	those	that	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	actors	actor	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Richard approached this person.
+# sentence_bad = Richard approached these person.
+# two_prefix_prefix_good = Richard approached this
+# two_prefix_prefix_bad = Richard approached these
+# two_prefix_word = person
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_irregular_2383
+1	Richard	Richard	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	approached	approach	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	person	person	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+5	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Jane did respect those content ladies.
+# sentence_bad = Jane did respect that content ladies.
+# two_prefix_prefix_good = Jane did respect those content
+# two_prefix_prefix_bad = Jane did respect that content
+# two_prefix_word = ladies
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_2165
+1	Jane	Jane	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	respect	respect	VERB	VB	VerbForm=Inf	0	root	_	_
+4	those	that	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+5	content	content	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	ladies	lady	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Lisa has discovered those big children.
+# sentence_bad = Lisa has discovered that big children.
+# two_prefix_prefix_good = Lisa has discovered those big
+# two_prefix_prefix_bad = Lisa has discovered that big
+# two_prefix_word = children
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_2238
+1	Lisa	Lisa	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	discovered	discover	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	those	that	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+5	big	big	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	children	child	NOUN	NNS	Number=Plur	3	obj	_	SpaceAfter=No
+7	.	.	PUNCT	.	_	3	punct	_	SpaceAfter=No
+
+# sentence_good = Which boys does every driver talk to and Carolyn appreciate?
+# sentence_bad = Which does every driver talk to boys and Carolyn appreciate?
+# two_prefix_prefix_good = Which boys does every driver talk to and
+# two_prefix_prefix_bad = Which does every driver talk to boys and
+# two_prefix_word = Carolyn
+# field = syntax
+# linguistics_term = island_effects
+# UID = coordinate_structure_constraint_complex_left_branch
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = coordinate_structure_constraint_complex_left_branch354
+1	Which	which	DET	WDT	PronType=Int	2	det	_	_
+2	boys	boy	NOUN	NNS	Number=Plur	6	obl	_	_
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+4	every	every	DET	DT	_	5	det	_	_
+5	driver	driver	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	talk	talk	VERB	VB	VerbForm=Inf	0	root	_	_
+7	to	to	ADP	IN	_	6	obl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	Carolyn	Carolyn	PROPN	NNP	Number=Sing	10	nsubj	_	_
+10	appreciate	appreciate	VERB	VB	VerbForm=Inf	6	conj	_	SpaceAfter=No
+11	?	?	PUNCT	.	_	6	punct	_	SpaceAfter=No
+
+# sentence_good = Who can many people confuse after describing Regina?
+# sentence_bad = Who can many people confuse Regina after describing?
+# field = syntax
+# linguistics_term = island_effects
+# UID = adjunct_island
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = adjunct_island434
+1	Who	who	PRON	WP	PronType=Int	5	obj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	5	aux	_	_
+3	many	many	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	people	people	NOUN	NNS	Number=Plur	5	nsubj	_	_
+5	confuse	confuse	VERB	VB	VerbForm=Inf	0	root	_	_
+6	after	after	SCONJ	IN	_	7	mark	_	_
+7	describing	describe	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+8	Regina	Regina	PROPN	NNP	Number=Sing	7	obj	_	SpaceAfter=No
+9	?	?	PUNCT	.	_	5	punct	_	SpaceAfter=No
+
+# sentence_good = Gerald liked this big child.
+# sentence_bad = Gerald liked these big child.
+# two_prefix_prefix_good = Gerald liked this big
+# two_prefix_prefix_bad = Gerald liked these big
+# two_prefix_word = child
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_with_adj_irregular_2
+# simple_LM_method = True
+# one_prefix_method = False
+# two_prefix_method = True
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_with_adj_irregular_2269
+1	Gerald	Gerald	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+4	big	big	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	child	child	NOUN	NN	Number=Sing	2	obj	_	SpaceAfter=No
+6	.	.	PUNCT	.	_	2	punct	_	SpaceAfter=No
+
+# sentence_good = Katherine wasn't taking that public park.
+# sentence_bad = Katherine wasn't taking that public parks.
+# one_prefix_prefix = Katherine wasn't taking that
+# one_prefix_word_good = public park
+# one_prefix_word_bad = public parks
+# field = morphology
+# linguistics_term = determiner_noun_agreement
+# UID = determiner_noun_agreement_1
+# simple_LM_method = True
+# one_prefix_method = True
+# two_prefix_method = False
+# lexically_identical = True
+# sent_id = determiner_noun_agreement_182
+1	Katherine	Katherine	PROPN	NNP	Number=Sing	4	nsubj	_	_
+2-3	wasn't	_	_	_	_	_	_	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	_	_
+3	n't	not	PART	RB	_	4	advmod	_	_
+4	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	that	that	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+6	public	public	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	park	park	NOUN	NN	Number=Sing	4	obj	_	SpaceAfter=No
+8	.	.	PUNCT	.	_	4	punct	_	SpaceAfter=No
+

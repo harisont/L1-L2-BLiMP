@@ -65,7 +65,7 @@ from `data/determiner_noun_agreement_with_adjective_1.jsonl` is
 UD annotation was obtained via the [UDPipe REST API](https://lindat.mff.cuni.cz/services/udpipe/api-reference.php), using the default 2.10 UD model for English.
 
 ## Further preprocessing for BEA experiments
-1. treebanks were merged and filtered with `morphosyntax.py`, resulting in a new parallel treebank, stored in `treebanks/bea`, exclusively composed by __lexically identical sentences presenting a morphology or syntax error__. In the process, some sentences that were incorrectly segmented by UDPipe wer found and removed: 
+1. treebanks were merged and filtered with `morphosyntax.py`, resulting in a new parallel treebank, stored in `treebanks/ms`, exclusively composed by __lexically identical sentences presenting a morphology or syntax error__. In the process, some sentences that were incorrectly segmented by UDPipe wer found and removed: 
    - adjunct_island441
    - adjunct_island821
    - complex_NP_island561
@@ -107,7 +107,7 @@ UD annotation was obtained via the [UDPipe REST API](https://lindat.mff.cuni.cz/
    - sentential_subject_island697
    - transitive918
    - wh_island800
-2. 
+2. a 100-sentence set of examples was randomly extracted from the M+S treebank. The resulting split is stored in `treebanks/ms/bea`
 
 ## Recommended Citation
 If you use BLiMP (original or this L1-L2 UD version) in your work, please cite it as follows:
