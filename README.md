@@ -1,6 +1,6 @@
 # L1-L2-BLiMP
 
-The [BLiMP Benchmark of Linguistic Minimal Pairs](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00321/96452/BLiMP-The-Benchmark-of-Linguistic-Minimal-Pairs) as an [L1-L2 parallel UD treebank][L1-L2 parallel UD treebank](https://aclanthology.org/W17-6306/).
+The [BLiMP Benchmark of Linguistic Minimal Pairs](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00321/96452/BLiMP-The-Benchmark-of-Linguistic-Minimal-Pairs) as an [L1-L2 parallel UD treebank](https://aclanthology.org/W17-6306/).
 
 ## Repository Contents
 - original BLiMP data: `blimp/data/`
